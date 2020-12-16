@@ -4,7 +4,7 @@ nums = [int(el) for el in line[0].split(',')]
 spoken = {}
 last_spoken = 0
 
-for i in range(2020):
+for i in range(30000000):
     print(i)
     if i < len(nums):
         spoken[nums[i]] = [i]
